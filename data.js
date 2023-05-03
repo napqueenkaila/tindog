@@ -54,6 +54,14 @@ const dogs = [
         bio: "Zzzzzz...",
         hasBeenSwiped: false,
         hasBeenLiked: false 
+    },
+    {
+        name: "Lukey",
+        avatar: "images/lukey.jpg",
+        age: 36,
+        bio: "Mommy's boy, I love car rides",
+        hasBeenSwiped: false,
+        hasBeenLiked: false 
     }
 ]
 
