@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <!-- STYLESHEETS -->
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <!-- TITLE & META -->
     <title>Tindog | Kaila</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/7c85686bf5.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <header>
-        <div class="icons">
-            <image class="profile-icon" src="./images/icon-profile.png">
-                <image class="logo" src="./images/logo.png">
-                    <image class="chat-icon" src="./images/icon-chat.png">
-        </div>
-    </header>
-    <main id="container">
-        <div id="card"></div>
-        <section id="button-container">
-            <button id="dislike-btn">
-                <image src="/images/icon-cross.png">
-            </button>
-            <button id="like-btn">
-                <image src="/images/icon-heart.png">
-            </button>
-        </section>
-    </main>
+    <div class="wrapper">
+        <header>
+            <div class="icons">
+                <img class="profile-icon" src="./images/icon-profile.png" alt="">
+                <img class="logo" src="./images/logo.png" alt="">
+                <img class="chat-icon" src="./images/icon-chat.png" alt="">
+            </div>
+        </header>
+        <main id="container">
+            <div id="start-page">
+                <div class="start-btn-wrapper">
+                    <button id="tindog" class="start-btn">TinDog</button>
+                    <button id="scratch" class="start-btn">Scratch.com</button>
+                </div>
+            </div>
+            <div id="card" class="hidden"></div>
+            <div id="button-container" class="button-container hidden">
+                <button id="dislike-btn">
+                    <img src="/images/icon-cross.png" alt="">
+                </button>
+                <button id="like-btn">
+                    <img src="/images/icon-heart.png" alt="">
+                </button>
+            </div>
+        </main>
+        <footer>
+            <p>©️ 2023 Developed by Kaila Bullard | 
+                <a href="https://github.com/napqueenkaila">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </p>
+        </footer>
+    </div>
     <script src="/index.js" type="module"></script>
 </body>
 
